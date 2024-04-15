@@ -23,3 +23,10 @@ git branch -u origin/branch-name(当前分支与指定远程分支关联)
 ```
 git branch -vv
 ```
+------
+### 初始化远程仓库
+git init
+git add .
+git commit -m ''
+git branch -m master main
+git push -u origin main
