@@ -25,8 +25,10 @@ git branch -vv
 ```
 ------
 ### 初始化远程仓库
+```
 git init
 git add .
 git commit -m ''
 git branch -m master main
 git push -u origin main
+```
