@@ -50,6 +50,9 @@ git remote add origin {远程仓库地址}
 校验远程仓库
 git remote -v
 
+出现不允许拉取代码时使用
+git pull origin main --allow-unrelated-histories
+
 将代码推至远程仓库
 git push -u origin main
 ```
