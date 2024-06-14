@@ -32,3 +32,24 @@ git commit -m ''
 git branch -m master main
 git push -u origin main
 ```
+
+### 初始化git远程仓库
+```
+初始化git仓库
+git init
+
+添加代码到本地暂存库
+git add .
+
+提交代码
+git commit -m ''
+
+设置远程仓库地址
+git remote add origin {远程仓库地址}
+
+校验远程仓库
+git remote -v
+
+将代码推至远程仓库
+git push -u origin main
+```
