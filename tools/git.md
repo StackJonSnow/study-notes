@@ -56,3 +56,8 @@ git pull origin main --allow-unrelated-histories
 将代码推至远程仓库
 git push -u origin main
 ```
+
+### 从某个提交创建分支
+```
+git checkout -b newBranch commitId
+```
